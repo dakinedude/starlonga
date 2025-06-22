@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>starlonga</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     body {
-      background: #ffffff;
+      background: #fff;
       color: #0033cc;
-      font-family: helvetica;
-      font-weight: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
-      padding: 1rem;
-      box-sizing: border-box;
-    }
-    pre {
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
-      white-space: pre;
-      font-size: 16px;
-      line-height: 1.3;
     }
-    .container {
-      text-align: center;
+    img {
       max-width: 100%;
+      height: auto;
     }
-    h1 {
-      margin-top: 1em;
-      font-size: 1.1em;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: normal;
+    .message {
+      margin-top: 1.5em;
+      font-size: 1em;
+    }
+    .email {
+      margin-top: 0.5em;
+      font-size: 1em;
+    }
+    a {
       color: #0033cc;
-    }
-    @media (max-width: 480px) {
-      pre {
-        font-size: 18px;
-      }
-      h1 {
-        font-size: 1.2em;
-      }
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <pre>
-`'::.
-    _________H ,%%&%,
-   /\     _   \%&&%%&%
-  /  \___/^\___\%&%%&&
-  |  | []   [] |%\Y&%'
- |  |   .-.   | ||  
-    ~~@._|@@_|||_@@|~||~~~~~~~~~~~~~
-`""") )"""`
-    </pre>
-    <h1>this is my website, working on it</h1>
+  <img src="walking.png" alt="walking" />
+  <div class="message">this is my website</div>
+  <div class="email">
+    <a href="mailto:starlonga@pm.me">starlonga@pm.me</a>
   </div>
 </body>
 </html>
